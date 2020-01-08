@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "prepare": "rollup -c",
     "docs": "documentation readme {{module}} --section=API",
     "lint": "documentation lint {{module}}"
   },
