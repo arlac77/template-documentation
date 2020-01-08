@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "prepare": "rollup -c",
+    "docs": "documentation readme {{module}} --section=API",
+    "lint": "documentation lint {{module}}"
+  },
+  "devDependencies": {
+    "documentation": "^12.1.4"
+  },
+  "template": {
+    "files": [
+      {
+        "merger": "Readme",
+        "pattern": "README.md",
+        "options": {
+          "badges": [
+            {
+              "name": "styled with prettier",
+              "icon": "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
+              "url": "https://github.com/prettier/prettier"
+            },
+            {
+              "name": "Known Vulnerabilities",
+              "icon": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}/badge.svg",
+              "url": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
