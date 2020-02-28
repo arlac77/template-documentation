@@ -8,12 +8,12 @@
   },
   "template": {
     "usedBy": [
-      "arlac77/npm-package-template",
-      "arlac77/npm-package-template-esm-only"
+      "arlac77/template-cli-app",
+      "arlac77/template-esm-only"
     ],
-    "files": [
+    "mergers": [
       {
-        "merger": "Readme",
+        "type": "Readme",
         "pattern": "README.md",
         "options": {
           "badges": [
