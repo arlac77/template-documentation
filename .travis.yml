@@ -2,8 +2,8 @@ jobs:
   include:
     - stage: doc
       node_js: lts/*
-      skip_cleanup: --delete--
-      cleanup: "false"
+      skip_cleanup: false
+      cleanup: --delete--
       script:
         - npm run lint
         - npm run docs
