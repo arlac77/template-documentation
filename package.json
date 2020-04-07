@@ -4,7 +4,7 @@
     "lint": "documentation lint {{module}}"
   },
   "devDependencies": {
-    "documentation": "^12.2.0"
+    "documentation": "^12.3.0"
   },
   "template": {
     "usedBy": [
