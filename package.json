@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "docs": "documentation readme {{module}} --section=API",
-    "lint": "documentation lint {{module}}"
+    "docs": "documentation readme {{main}} --section=API",
+    "lint": "documentation lint {{main}}"
   },
   "devDependencies": {
     "documentation": "^12.3.0"
