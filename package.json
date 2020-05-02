@@ -1,7 +1,7 @@
 {
   "scripts": {
     "docs": "#overwrite documentation readme {{main}} --section=API",
-    "lint": "#overwritw documentation lint {{main}}"
+    "lint": "#overwrite documentation lint {{main}}"
   },
   "devDependencies": {
     "documentation": "^12.3.0"
