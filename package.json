@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "docs": "documentation readme {{module}} --section=API",
-    "lint": "documentation lint {{module}}"
+    "docs": "--overwrite-- documentation readme {{main}} --section=API",
+    "lint": "--overwrite-- documentation lint {{main}}"
   },
   "devDependencies": {
-    "documentation": "^12.3.0"
+    "documentation": "^13.0.0"
   },
   "template": {
     "usedBy": [
