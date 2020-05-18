@@ -1,7 +1,7 @@
 name: API to readme
 on:
   schedule:
-    - cron: "56 10 * * *"
+    - cron: "31 14 * * *"
 
 jobs:
   update_readme_api:
@@ -18,7 +18,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          patch: "README.md"
+          path: "README.md"
           title: "API"
           branch: "readme-api"
           commit-message: "docs(README): sync API"
