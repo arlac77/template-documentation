@@ -8,7 +8,7 @@
   },
   "template": {
     "usedBy": [
-      "arlac77/template-cli-app",
+      "arlac77/template-node-app",
       "arlac77/template-esm-only"
     ],
     "mergers": [
