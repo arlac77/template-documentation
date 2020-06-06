@@ -13,6 +13,22 @@
     ],
     "mergers": [
       {
+        "type": "YAML",
+        "pattern": ".github/workflows/*.yml",
+        "options": {
+          "messagePrefix": "chore(actions): ",
+          "mergeHints": {
+            "*": {
+              "removeEmpty": true
+            },
+            "*.node-version": {
+              "scope": "deps",
+              "merge": "mergeVersionsPreferNumeric"
+            }
+          }
+        }
+      },
+      {
         "type": "Readme",
         "pattern": "README.md",
         "options": {
