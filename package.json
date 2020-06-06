@@ -24,6 +24,10 @@
             "*.node-version": {
               "scope": "deps",
               "merge": "mergeVersionsPreferNumeric"
+            },
+            "*.steps": {
+              "key": "name",
+              "orderBy": ["test", "doc", "release"]
             }
           }
         }
