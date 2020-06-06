@@ -26,8 +26,7 @@
               "merge": "mergeVersionsPreferNumeric"
             },
             "*.steps": {
-              "key": "name",
-              "orderBy": ["test", "doc", "release"]
+              "key": ["id","name"]
             }
           }
         }
