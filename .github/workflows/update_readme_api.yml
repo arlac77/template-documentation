@@ -6,7 +6,7 @@ jobs:
   update_readme_api:
     runs-on: ubuntu-latest
     steps:
-      - ses: actions/checkout@v2
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: [-10, -11, -12, -13, -14, 14.4.0]
