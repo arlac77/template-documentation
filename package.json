@@ -26,7 +26,7 @@
               "merge": "mergeVersionsPreferNumeric"
             },
             "*.steps": {
-              "key": ["id","name"]
+              "key": "id|name|uses|run"
             }
           }
         }
