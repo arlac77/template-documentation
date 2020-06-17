@@ -10,6 +10,7 @@
     "usedBy": [
       "arlac77/mkpr",
       "arlac77/node-symatem",
+      "arlac77/symatem-infrastructure",
       "arlac77/template-esm-only",
       "arlac77/template-node-app"
     ],
