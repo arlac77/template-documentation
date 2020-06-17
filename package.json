@@ -12,7 +12,8 @@
       "arlac77/node-symatem",
       "arlac77/symatem-infrastructure",
       "arlac77/template-esm-only",
-      "arlac77/template-node-app"
+      "arlac77/template-node-app",
+      "k0nsti/konsum"
     ],
     "mergers": [
       {
