@@ -4,7 +4,7 @@
     "lint": "--overwrite-- documentation lint {{main}}"
   },
   "devDependencies": {
-    "documentation": "^13.0.1"
+    "documentation": "^13.0.2"
   },
   "template": {
     "usedBy": [
