@@ -21,7 +21,7 @@
             "*": {
               "removeEmpty": true
             },
-            "*.node-version": {
+            "*.matrix.node-version": {
               "scope": "deps",
               "merge": "mergeVersionsPreferNumeric"
             },
