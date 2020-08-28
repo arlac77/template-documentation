@@ -37,7 +37,7 @@
         "options": {
           "badges": [
             {
-              "name": "styled with prettier",
+              "name": "Styled with prettier",
               "icon": "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
               "url": "https://github.com/prettier/prettier",
               "order" : 0.30
