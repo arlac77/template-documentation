@@ -1,7 +1,8 @@
 {
   "scripts": {
     "docs": "documentation readme {{main}} --section=API",
-    "lint": "documentation lint {{main}}"
+    "lint": "--overwrite-- npm run lint:docs",
+    "lint:docs": "documentation lint {{main}}"
   },
   "devDependencies": {
     "documentation": "^13.0.2"
