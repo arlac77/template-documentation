@@ -5,7 +5,7 @@
     "lint:docs": "documentation lint {{main}}"
   },
   "devDependencies": {
-    "documentation": "^13.0.2"
+    "documentation": "^13.1.0"
   },
   "template": {
     "usedBy": [
