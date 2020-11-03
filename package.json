@@ -1,11 +1,11 @@
 {
   "scripts": {
     "docs": "documentation readme {{main}} --section=API",
-    "lint": "--overwrite-- npm run lint:docs",
+    "lint": "npm run lint:docs",
     "lint:docs": "documentation lint {{main}}"
   },
   "devDependencies": {
-    "documentation": "^13.1.0"
+    "documentation": "github:arlac77/documentation"
   },
   "template": {
     "usedBy": [
