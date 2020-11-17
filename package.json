@@ -9,6 +9,7 @@
   },
   "template": {
     "usedBy": [
+      "Kronos-Integration/svelte-components",
       "arlac77/template-esm-only",
       "k0nsti/konsum"
     ],
