@@ -10,6 +10,7 @@
   "template": {
     "usedBy": [
       "Kronos-Integration/svelte-components",
+      "arlac77/svelte-common",
       "arlac77/template-esm-only",
       "k0nsti/konsum"
     ],
