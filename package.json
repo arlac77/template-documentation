@@ -9,8 +9,9 @@
   },
   "template": {
     "usedBy": [
-      "arlac77/template-svelte-component",
+      "Kronos-Integration/svelte-components",
       "arlac77/template-esm-only",
+      "arlac77/template-svelte-component",
       "k0nsti/konsum"
     ],
     "mergers": [
