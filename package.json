@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "docs": "documentation readme --section=API {{javascript.source}}",
+    "--overwrite-- docs": "documentation readme --section=API {{javascript.source}}",
     "lint": "npm run lint:docs",
-    "lint:docs": "documentation lint {{javascript.source}}"
+    "--overwrite-- lint:docs": "documentation lint {{javascript.source}}"
   },
   "devDependencies": {
     "documentation": "github:arlac77/documentation"
