@@ -1,15 +1,14 @@
 {
   "scripts": {
-    "docs": "--overwrite-- documentation readme --section=API {{javascript.source}}",
+    "docs": "documentation readme --section=API {{javascript.source}}",
     "lint": "npm run lint:docs",
-    "lint:docs": "--overwrite-- documentation lint {{javascript.source}}"
+    "lint:docs": "documentation lint {{javascript.source}}"
   },
   "devDependencies": {
     "documentation": "github:arlac77/documentation"
   },
   "template": {
     "usedBy": [
-      "Kronos-Integration/svelte-components",
       "arlac77/template-esm-only",
       "arlac77/template-svelte-component",
       "konsumation/konsum"
