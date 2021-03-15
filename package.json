@@ -5,7 +5,7 @@
     "lint:docs": "documentation lint {{javascript.source}}"
   },
   "devDependencies": {
-    "documentation": "github:arlac77/documentation"
+    "documentation": "^13.2.0"
   },
   "template": {
     "usedBy": [
