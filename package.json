@@ -5,7 +5,7 @@
     "lint:docs": "documentation lint {{javascript.source}}"
   },
   "devDependencies": {
-    "documentation": "^13.2.4"
+    "documentation": "^13.2.5"
   },
   "template": {
     "usedBy": [
