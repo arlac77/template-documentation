@@ -29,7 +29,7 @@
             },
             "*.steps": {
               "key": "id|name|uses|run",
-              "normalizeValue": "@.*" 
+              "normalizeValue": "@.*"
             }
           }
         }
