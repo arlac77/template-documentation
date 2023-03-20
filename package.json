@@ -8,6 +8,9 @@
     "documentation": "^14.0.1"
   },
   "template": {
+    "inheritFrom": [
+      "arlac77/template-javascript"
+    ],
     "usedBy": [
       "arlac77/template-esm-only",
       "arlac77/template-svelte-component",
