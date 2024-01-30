@@ -5,7 +5,7 @@
     "lint:docs": "documentation lint {{javascript.source}}"
   },
   "devDependencies": {
-    "documentation": "^14.0.2"
+    "documentation": "^14.0.3"
   },
   "template": {
     "inheritFrom": [
