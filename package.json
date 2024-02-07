@@ -13,6 +13,7 @@
     ],
     "usedBy": [
       "arlac77/template-esm-only",
+      "arlac77/template-node-component",
       "arlac77/template-svelte-component",
       "konsumation/konsum"
     ],
