@@ -12,6 +12,7 @@
       "arlac77/template-javascript"
     ],
     "usedBy": [
+      "arlac77/npm-dep-graph",
       "arlac77/template-javascript-component",
       "arlac77/template-node-component",
       "arlac77/template-svelte-component",
