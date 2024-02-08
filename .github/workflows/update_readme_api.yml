@@ -2,7 +2,6 @@ name: API to readme
 on:
   schedule:
     - cron: "31 14 * * 6"
-    - cron: "--delete-- 31 14 * * *"
   push:
     paths:
       - "src/*"
