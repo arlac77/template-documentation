@@ -1,7 +1,7 @@
 {
   "scripts": {
     "docs": "documentation readme --section=API {{javascript.source}}",
-    "lint": "npm run lint:docs",
+    "lint": "node --run lint:docs",
     "lint:docs": "documentation lint {{javascript.source}}"
   },
   "devDependencies": {
