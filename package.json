@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "docs": "documentation readme --section=API {{javascript.source}}",
+    "docs": "--overwrite-- documentation readme --section=API {{javascript.source}}",
     "lint": "node --run lint:docs",
     "lint:docs": "--overwrite-- documentation lint {{javascript.source}}"
   },
